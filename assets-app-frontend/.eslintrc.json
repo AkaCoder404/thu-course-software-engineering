@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "react-app", 
+        "plugin:jsx-a11y/recommended"
+    ],
+    "rules": {
+        "jsx-a11y/click-events-have-key-events":"warn",
+        "jsx-a11y/no-static-element-interactions":"warn",
+        "max-len": [
+            "warn",
+            {
+              "code": 200
+            }
+          ],
+          "no-console": "off"  
+    }
+}

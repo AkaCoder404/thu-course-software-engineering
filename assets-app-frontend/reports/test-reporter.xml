@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="C:\Users\ligeo\Desktop\AssetManagement\assets-app-frontend\src\__tests__\Example.test.js">
+        <testCase name="sums numbers" duration="5"/>
+        <testCase name="subtracts numbers" duration="1"/>
+    </file>
+    <file path="C:\Users\ligeo\Desktop\AssetManagement\assets-app-frontend\src\__tests__\Login.test.js">
+        <testCase name="Mobile Login Form renders without crashing" duration="6"/>
+    </file>
+    <file path="C:\Users\ligeo\Desktop\AssetManagement\assets-app-frontend\src\__tests__\Components.test.js">
+        <testCase name="Main Layout renders without crashing" duration="7"/>
+    </file>
+    <file path="C:\Users\ligeo\Desktop\AssetManagement\assets-app-frontend\src\__tests__\Utils.test.js">
+        <testCase name="cookie manipulation tests" duration="6"/>
+        <testCase name="session manipulation tests" duration="1"/>
+    </file>
+    <file path="C:\Users\ligeo\Desktop\AssetManagement\assets-app-frontend\src\__tests__\Api.test.js">
+        <testCase name="login api function works" duration="71"/>
+        <testCase name="get account info api function works" duration="11"/>
+        <testCase name="get asset list api function works" duration="11"/>
+        <testCase name="add user api function works" duration="10"/>
+        <testCase name="user info api function works" duration="10"/>
+        <testCase name="user list api function works" duration="57"/>
+    </file>
+    <file path="C:\Users\ligeo\Desktop\AssetManagement\assets-app-frontend\src\__tests__\ViewUser.test.js">
+        <testCase name="User list renders without crashing" duration="183"/>
+        <testCase name="User list table can be used" duration="54"/>
+    </file>
+    <file path="C:\Users\ligeo\Desktop\AssetManagement\assets-app-frontend\src\__tests__\Dashboard.test.js">
+        <testCase name="Dashboard renders without crashing" duration="10"/>
+    </file>
+    <file path="C:\Users\ligeo\Desktop\AssetManagement\assets-app-frontend\src\__tests__\ViewAbout.test.js">
+        <testCase name="User list renders without crashing" duration="328"/>
+    </file>
+</testExecutions>

@@ -1,0 +1,30 @@
+.login-wrap {
+  max-width: 400px;
+  margin: auto;
+  margin-top:70px
+}
+
+h1.title {
+    padding-top: 150px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.tab-wrap {
+  margin-top: -20px;
+  margin-bottom: -20px;   
+}
+
+.login-form {
+    margin-top: 10px;
+    max-width: 400px;   
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  .login-form-button {
+    width: 100%;
+  }

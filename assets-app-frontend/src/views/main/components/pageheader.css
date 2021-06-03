@@ -1,0 +1,17 @@
+.ant-breadcrumb-link {
+    color: black;
+    text-decoration: none;   
+    cursor: text;
+}
+
+a[href^="#"] {
+    text-decoration: none;
+    cursor: text;
+    text-decoration-color: black;
+    pointer-events: none;    
+}
+.site-page-header{
+    margin-bottom: 8px;
+    background-color: #fff;
+    margin-top:3px;
+}

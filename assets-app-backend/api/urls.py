@@ -1,0 +1,42 @@
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path('', views.index),
+    path('login/', views.login),
+    path('staff_info/', views.staff_info),
+    path('user_manage/create_new_staff/',views.create_new_staff),
+    path('user_manage/delete_staff/', views.delete_staff),
+    path('user_manage/change_staff_password/',views.change_staff_password),
+    path('user_manage/locked_staff/', views.locked_staff),
+    path('user_manage/set_character/', views.set_character),
+    path('add_assets/', views.add_assets),
+    path('staff_list/', views.staff_list),
+    path('asset_list/', views.asset_list),
+    path('asset_group_tree/', views.asset_group_tree),
+    path('get_all_asset_group/', views.get_all_asset_group),
+    path('search_assets/', views.search_assets),
+    path('asset_info/', views.asset_info),
+    path('assets_apply/', views.assets_apply),
+    path('assets_apply/confirm/', views.apply_confirm),
+    path('assets_delete/', views.assets_delete),
+    path('assets_transfer_to_apply/', views.assets_transfer_to_apply),
+    path('assets_transfer_to/confirm/', views.transfer_to_confirm),
+    path('assets_return_apply/', views.assets_return_apply),
+    path('assets_return/confirm/', views.return_confirm),
+    path('search_assets_history/', views.search_assets_history),
+    path('single_asset_history/', views.single_asset_history),
+    path('modify_asset/', views.modify_asset),
+    path('department/create/', views.department_create),
+    path('department/modify/', views.department_modify),
+    path('department/info/', views.department_info),
+    path('department/delete/', views.department_delete),
+    path('department/all/', views.department_all),
+    path('assets_of_staff_list/', views.assets_of_staff_list),
+    path('asset_pending_list/', views.asset_pending_list),
+    path('assets_repair_apply/', views.assets_repair_apply),
+    path('asset_repair_finish/', views.asset_repair_finish),
+    path('staff_list_title_value/', views.staff_list_title_value),
+    path('asset_list_title_value/', views.asset_list_title_value)
+]
